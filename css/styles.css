@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Cambiar el color de fondo del pie de página */
+footer {
+    background-color: #f8f9fa; /* Color claro */
+    padding: 20px 0; /* Espaciado */
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #343a40; /* Color oscuro */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para la barra de navegación */
+}
+
+/* Añadir espaciado a los párrafos */
+p {
+    line-height: 1.6; /* Aumentar el espacio entre líneas */
+}
+
+/* Estilo del logo */
+.navbar-brand img {
+    border-radius: 50%; /* Hacer el logo circular */
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan’s Café</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Tu archivo CSS adicional -->
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Bryan's Café Logo" style="width: 40px;"> Bryan’s Café
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container mt-4">
+        <h1>Welcome to Bryan’s Café!</h1>
+        <p>Discover our delicious menu and cozy atmosphere.</p>
+    </div>
+
+
+    <div class="container mt-4">
+        <div id="banner" class="jumbotron text-center">
+          
+            <img src="images/banner.png" class="img-fluid" alt="Bryan's Café Banner">
+            <p>Your perfect place to enjoy delicious meals and beverages!</p>
+        </div>
+
+     <!-- About Section -->
+<div class="row mb-4">
+    <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>Welcome to Bryan's Café, where the love for coffee meets the passion for great food! Established in 2010, our café is dedicated to providing a cozy and inviting atmosphere for friends and family.</p>
+        <p>We pride ourselves on sourcing the finest ingredients to create a menu filled with freshly brewed coffees, specialty teas, mouthwatering pastries, and hearty meals—each crafted with love and attention to detail.</p>
+        <p>Whether you're enjoying your morning coffee, meeting friends for lunch, or unwinding with a book, you’ll find the perfect spot here.</p>
+        <p>Over the years, we've become a beloved community hub, hosting local events and art displays. Join us and discover why we're a favorite destination for coffee lovers and food enthusiasts alike!</p>
+    </div>
+    <div class="col-md-6">
+        <img src="images/about.jpg" class="img-fluid" alt="About Bryan's Café">
+    </div>
+</div>
+
+
+        <!-- History Section -->
+        <div class="row mb-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Our History</h2>
+                <p>Bryan's Café was founded by Bryan Johnson, a passionate barista with a vision: to create a welcoming space for people to enjoy excellent coffee and delicious meals.</p>
+                <p>Starting from a small corner in the city, we have grown into a beloved destination for coffee lovers, known for our warm and friendly atmosphere.</p>
+                <p>Our commitment to quality and community has made us a favorite spot for gathering, where great conversations and memorable experiences unfold.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="images/history.jpg" class="img-fluid" alt="History of Bryan's Café">
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="text-center mt-4">
+        <p>@<span id="current-year"></span> Bryan’s Café</p>
+        <p><a href="privacy.html" target="_blank">Privacy Policy</a></p>
+    </footer>
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script> 
+    <!-- Tu archivo JavaScript -->
+    <script>
+        // Actualizar el año actual en el pie de página
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
